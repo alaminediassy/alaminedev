@@ -216,3 +216,164 @@ p {
     right: 12px;
     top: 110px;
 }
+
+.star-formation {
+    text-align: left;
+    margin-left: 20px;
+    color: #F98305;
+    margin-bottom: 10px;
+}
+
+.apropos {
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 52, 112, 0.9),rgba(4, 52, 112, 0.9)), url("../images/about.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 50px 0 0;
+}
+
+.apropos div {
+    width: 60%;
+}
+
+.apropos h1, h3 {
+    padding-bottom: 10px;
+    color: white;
+}
+
+.apropos p {
+    padding-bottom: 10px;
+    color: white;
+}
+
+/*----------------Section nos services - pourqoi nous choisir----------*/
+
+.container-services {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: #E5EAEC;
+    padding-top: 80px;
+}
+
+#nos-services {
+    width: 70%;
+    margin: auto;
+}
+
+.row-services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nos-services-col {
+    display: flex;
+    background-color: white;
+    margin-bottom: 5%;
+    padding: 30px;
+    text-align: left;
+    border-radius: 10px;
+    flex-basis: 45%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.nos-services-col img {
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 24px;
+}
+
+.devenir-formateur {
+    background-image: linear-gradient(rgba(4, 52, 112, 0.9),rgba(4, 52, 112, 0.9)), url("../images/banner.jpg");
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-bloc {
+    width: 70%;
+    text-align: center;
+}
+
+.text-bloc h1 {
+    color: white;
+    font-size: 67px;
+}
+
+.text-bloc p {
+    color: white;
+    font-size: 16px;
+}
+
+.btn-formateur {
+    background-color: #F98305;
+    font-size: 16px;
+    padding: 12px 34px;
+    font-weight: 600;
+    height: 3.5em;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+
+.btn-formateur:hover {
+    border: 1px solid #09C7FA;
+    background-color: #09C7FA;
+    color: white;
+    transition: 0.7s;
+}
+
+/*----------------Section des avis----------*/
+
+.container-avis {
+    width: 70%;
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.container-avis h1 {
+    margin-bottom: 30px;
+}
+
+.row-avis {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-avis {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    text-align: left;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+.col-avis img {
+    height: 40px;
+    width: 40px;
+    margin: auto;
+}
+
+.star {
+    color: #F98305;
+}
